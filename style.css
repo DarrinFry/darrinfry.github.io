@@ -2,7 +2,7 @@ h1 {
     color: white;
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
-    ;
+    
 }
 
 h2 {
@@ -22,15 +22,9 @@ footer {
 
 footer {
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 1em;
-    font-family: 'arial', sans-serif;
-    height: 50px;
-
 }
 
 header {
-    padding-left: 50px;
     display: flex;
     justify-content: space-between;
     height: 50px;
