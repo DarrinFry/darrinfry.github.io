@@ -43,13 +43,14 @@ img {
 }
 
 p {
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 15px;
 }
 
 ul,
 li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: black;
     text-decoration-line: none;
 }
