@@ -1,9 +1,13 @@
-h1 {
+h1,h2 {
     color: white;
-    font-size: 40px;
     font-family: 'Open Sans', sans-serif;
-    
+    text-align: center;
 }
+h1 {
+    font-size: 40px;
+
+}
+
 
 h2 {
     font-size: 25px;
@@ -15,7 +19,7 @@ footer {
     background-color: #005381;
     border-radius: 15px;
     line-height: 10px;
-    padding: 20px;
+    padding: 30px;
     max-width: 700px;
     margin: auto;
 }
@@ -35,10 +39,6 @@ main {
 }
 
 
-img {
-    height: 225px;
-    box-shadow: 10px 10px 5px grey;
-}
 
 p {
     font-family: 'Montserrat', sans-serif;
