@@ -1,63 +1,97 @@
-h1,h2 {
+h1,
+h2,
+h3 {
     color: white;
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
+
 h1 {
     font-size: 40px;
-
 }
-
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
+h3 {
+    font-size: 20px;
+    background-color: #005381;
+    padding: 5px;
+}
 
 header,
 footer {
     background-color: #005381;
     border-radius: 15px;
-    line-height: 10px;
-    padding: 30px;
-    max-width: 700px;
     margin: auto;
-}
-
-footer {
+    padding: 10px;
     text-align: center;
 }
 
-header {
-    
-    height: 50px;
-}
-
 main {
-    margin: auto;
-    max-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 10px;
+    text-align: center;
+    padding: 2px;
+    grid-gap: 10px 10px;
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
 }
 
-
+#column {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+}
 
 p {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+     color: white;
     font-size: 15px;
 }
 
-ul,
-li {
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    text-decoration-line: none;
+img {
+     width: 95%;
+    padding-top: 15px;
 }
 
 a {
-    color: #56ACDD;
+    color: white;
+    font-size: 20px;
 }
 
 #last_modified {
     font-size: 15px;
     color: #B9F18C;
+}
+
+/* Phone View addapted from the below media queries*/
+@media only screen and (min-width: 0.05em) {
+    main {
+        
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+}
+
+/* Tablet Views inspired by the Jason Blazzard Codepen presentation */
+@media only screen and (min-width: 37.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Desktop Views inspired by the Jason Blazzard Codepen presentation*/
+@media only screen and (min-width: 60em) {
+    main {
+
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #column {
+        max-width: 90%;
+    }
+
 }
