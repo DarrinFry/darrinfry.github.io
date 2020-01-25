@@ -1,0 +1,122 @@
+h1,
+h2,
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    background-color: #005381;
+    padding: 5px;
+}
+p {
+    color: black;
+}
+
+header,
+footer,
+nav,
+main {
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: .5em;
+}
+
+header,
+footer {
+    background-color: #005381;
+    border-radius: 15px;
+    
+}
+
+#logo {
+    float: left;
+    width: 100px;
+    height: auto;
+    
+}
+
+main {
+    background-color: gray;
+    border-radius: .5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+nav {
+    background-color:#36454f;
+    text-align: center;
+    border-radius: .5em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li a {
+    display: inline-block;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #C9C9C9;
+    border-radius: 1em;
+    
+}
+
+p {
+    color: black;
+    font-size: 15px;
+}
+
+.para-body {
+    text-align: left;
+}
+
+
+
+a {
+    color: white;
+    font-size: 20px;
+}
+
+#last_modified {
+    font-size: 15px;
+    color: #B9F18C;
+}
+
+/* Phone View addapted from the below media queries*/
+@media only screen and (max-width: 32.50em) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
