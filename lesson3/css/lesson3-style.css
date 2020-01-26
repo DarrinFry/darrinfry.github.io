@@ -19,9 +19,7 @@ h3 {
     background-color: #005381;
     padding: 5px;
 }
-p {
-    color: black;
-}
+
 
 header,
 footer,
@@ -49,15 +47,16 @@ footer {
 }
 
 main {
-    background-color: gray;
+    background-color: #56acdd;
     border-radius: .5em;
     padding-top: 10px;
     padding-bottom: 10px;
+   
     
 }
 
 nav {
-    background-color:#36454f;
+    background-color:#002a45;
     text-align: center;
     border-radius: .5em;
     
@@ -83,30 +82,61 @@ nav li a {
 }
 
 nav a:hover {
-    background-color: #C9C9C9;
+    background-color: #b9f18c;
     border-radius: 1em;
     
 }
 
 p {
-    color: black;
     font-size: 15px;
+    color: black;
+    font-family:'Montserrat', 'Open Sans', sans-serif;
 }
 
 .para-body {
     text-align: left;
 }
 
-
+#color_image {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 95%;
+    height: auto;
+}
 
 a {
     color: white;
     font-size: 20px;
 }
 
+
+table {
+	padding: 1rem;
+	text-align: left;
+	max-width: 95%;
+	height: auto;
+}
+
+th {
+	text-align: center;
+	font-weight: bolder;
+}
+
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+}
+
+
 #last_modified {
     font-size: 15px;
     color: #B9F18C;
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
 }
 
 /* Phone View addapted from the below media queries*/
