@@ -67,7 +67,7 @@ nav {
 
 .navigation {
 	list-style: none;
-	padding: none;
+	padding: 0em;
 }
 .navigation li:first-child {
 	display: block;
