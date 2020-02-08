@@ -21,8 +21,6 @@
 	} 
 
 	.article {
-		
-        
 		text-align: justify;
         margin: auto;
         
@@ -31,7 +29,25 @@
     .article img {
 		float: right;
 		max-width: 80%;
-     	
+     		
+	}
+	#contactGrid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.column {
+		padding: 10px;
+		font-size: 12px;
+		text-align: center;
+		background-color: white;
+		border-radius: 10px;
 		
-    }
+	}
+
+	.column img {
+		display: block;
+		max-width: 300px;
+		height: auto;
+	}
+	
 }

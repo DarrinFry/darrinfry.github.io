@@ -67,6 +67,12 @@ main {
     
 }
 
+.page h1 {
+    color: black;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
 nav {
     background-color:#002a45;
     text-align: center;
@@ -94,7 +100,7 @@ nav {
 	text-decoration: none;
 }
 
-.navigation a .active{
+.navigation .active{
     background-color: #56acdd;
 }
 .navigation a:hover {
@@ -161,7 +167,7 @@ a {
 	border-top: 1px solid #333;
 	border-bottom: 1px solid #333;
 	border-left: 1px solid #333;
-	background-color: #bed;
+	background-color: #56acdd;
 	font-size: 13px;
 	text-align: center;
 }
@@ -232,4 +238,25 @@ a {
 	margin: auto;
 	box-shadow: 0 2px 15px #1c3144;
 
+}
+
+#contactGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 10px;
+    text-align: center;
+    padding: 2px;
+    grid-gap: 10px 10px;
+}
+
+.column {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.column img {
+    display: none;
+    box-shadow: 0 2px 15px #1c3144;
 }
