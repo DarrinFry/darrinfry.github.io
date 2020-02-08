@@ -14,4 +14,24 @@
 	.navigation li:first-child {
 		display: none;
 	}
+
+	.fiveDayForcast {
+		display: block;
+		margin: auto;
+	} 
+
+	.article {
+		
+        
+		text-align: justify;
+        margin: auto;
+        
+    }
+
+    .article img {
+		float: right;
+		max-width: 80%;
+     	
+		
+    }
 }

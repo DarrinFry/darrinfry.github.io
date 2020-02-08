@@ -59,7 +59,7 @@ footer {
 }
 
 main {
-    
+    display: block;
     border-radius: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -147,37 +147,49 @@ a {
 }
 
 .fiveDayForcast {
-	display: none;
-	margin: auto;
+    display: none;
+    margin: auto;
 } 
 
 .flex {
-    display: none;
+	display: flex;
 	flex-direction: row;
+}
+
+.col {
+	flex: 1 1 100%;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	background-color: #bed;
+	font-size: 13px;
+	text-align: center;
+}
+
+.flex div:last-child {
+	border-right: 1px solid #333;
+}
+
+.label {
+	display: block;
 	padding: 5px;
-	text-align: center;
-
+	font-weight: 700;
+	font-size: 15px;
+	border-bottom: 1px solid #333;
+	background-color: #eee;
 }
 
-.flex img {
-    max-width: 80px;
-	width: 100%;
-	height: auto;
+.flex div img, table img {
+    max-width: 60px;
+    height: auto;
+	border-radius: 100px;
+	padding: 5px;
 }
 
-.day {
-    padding: 5px;
-	font-size: 90%;
-	font-weight: bold;
-}
-.high {
-	display: none;
-	font-size: 60%;
+.data {
+	display: block;
 	padding: 0 5px 5px;
-	text-align: center;
-
 }
-
 .weatherSummary {
     position: relative;
     margin: auto;
@@ -202,4 +214,22 @@ a {
     text-align: center;
     border-radius: 15px;
     
+}
+
+.article {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+}
+
+
+.article img {
+	max-width: 90%;
+	height: auto;
+	margin: auto;
+	box-shadow: 0 2px 15px #1c3144;
+
 }
