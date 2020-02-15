@@ -1,0 +1,262 @@
+h1,
+h2,
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Lora', 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    background-color: #005381;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+header,
+footer,
+nav,
+main {
+    max-width: 98%;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    margin-top: .5em;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.headingFlex {
+    display: flex;
+    flex-direction: column;
+}
+header,
+footer {
+    background-color: #005381;
+    border-radius: 15px;
+    
+}
+
+#logo {
+    
+    width: 100px;
+    height: auto;
+    
+}
+
+main {
+    display: block;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    
+}
+
+.page h1 {
+    color: black;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+nav {
+    background-color:#002a45;
+    text-align: center;
+    border-radius: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0em;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navigation .active{
+    background-color: #56acdd;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #56acdd;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+.responsive li {
+	display: block;
+}
+
+p {
+    font-size: 15px;
+    color: black;
+    font-family:'Montserrat', 'Lora', sans-serif;
+}
+
+.para-body {
+    text-align: left;
+}
+
+#color_image {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 95%;
+    height: auto;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+}
+
+#pancake {
+    display: block;
+    padding-bottom: .5em;
+}
+
+.banner {
+    color: black;
+}
+
+#last_modified {
+    font-size: 15px;
+    color: #B9F18C;
+    font-family: 'Lora', 'Montserrat', sans-serif;
+}
+
+.fiveDayForcast {
+    display: none;
+    margin: auto;
+} 
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.col {
+	flex: 1 1 100%;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	background-color: #56acdd;
+	font-size: 13px;
+	text-align: center;
+}
+
+.flex div:last-child {
+	border-right: 1px solid #333;
+}
+
+.label {
+	display: block;
+	padding: 5px;
+	font-weight: 700;
+	font-size: 15px;
+	border-bottom: 1px solid #333;
+	background-color: #eee;
+}
+
+.flex div img, table img {
+    max-width: 60px;
+    height: auto;
+	border-radius: 100px;
+	padding: 5px;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+}
+.weatherSummary {
+    position: relative;
+    margin: auto;
+
+}
+
+.weatherSummary img {
+    max-width: 98%;
+    height: auto;
+}
+
+.summaryInset {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    background-color:whitesmoke;
+    padding: 10px;
+    box-shadow: 0 0 30px #1c3144;
+    opacity: .6;
+    max-width: 200px;
+    height: auto;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+.article {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+}
+
+
+.article img {
+	max-width: 90%;
+	height: auto;
+	margin: auto;
+	box-shadow: 0 2px 15px #1c3144;
+
+}
+
+#contactGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 10px;
+    text-align: center;
+    padding: 2px;
+    grid-gap: 10px 10px;
+}
+
+.column {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.column img {
+    display: none;
+    box-shadow: 0 2px 15px #1c3144;
+}

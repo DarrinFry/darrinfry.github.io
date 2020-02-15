@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CS230 Weather Page Planning Assignment">
+    <title>Blue Sky Weather - Preston, Idaho</title>
+    <link rel="shortcut icon" href="/lesson5/images/favicon.ico">
+    <link rel="stylesheet" href="/lesson6/css/normalize.css">
+    <link rel="stylesheet" href="/lesson6/css/small.css">
+    <link rel="stylesheet" href="/lesson6/css/medium.css">
+    <link rel="stylesheet" href="/lesson6/css/large.css">
+    
+    
+
+    
+</head>
+
+
+<body>
+    <div id="pancake"><h1 class="banner">Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park!</h1></div>
+    <header>        
+        <img id="logo" src="/lesson3/images/iconfinder_weather-ui-ux-mobile-web_4960756.png" alt="Weather icon">
+        <section class="headingFlex"><h1> Blue Sky Weather</h1>
+            <br>
+            <h3>If the sky is not blue now, just wait. It always gets better.</h3>
+            </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="/lesson6/preston-6.html">Home</a></li>
+            <li><a href="/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="/lesson6/soda-springs.html">Soda Springs</a></li>
+            <li><a href="/lesson6/fish-haven.html">Fish Haven</a></li>
+            <li><a href="/lesson6/storm-center.html">Storm Center</a></li>
+            <li><a href="/lesson6/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+
+    <main>
+        <div class="page"> 
+            <h1>Preston</h1>
+        </div>
+        <section class="weatherSummary">
+            <h3>Weather Summary</h3>
+            <picture> 
+                <source srcset="/lesson6/images/cit230_image_franklin_Medium_compressed.jpg" media="(min-width: 32.5em) and (max-width: 59.99em)">
+                <source srcset="/lesson6/images/cit230_image_franklin_large_compressed.jpg" media="(min-width: 60em)">
+                <img src="/lesson6/images/cit230_image_franklin_Small_compressed.jpg" alt="Bright sun with some clouds just above the mountain line and a green field with trees.">
+            </picture>
+            <div class="summaryInset">
+                <p> Currently: <span id="current1">Sunny</span></p>
+                <p> Temperature: <span id="temp1">45</span>ºF</p>
+                <p> Wind Chill: <span id="windchill"></span></p>
+                <p> Humidity: <span id="humid1">32</span>%</p>
+                <p> Wind Speed: <span id="wind1">8</span> MPH</p></p>
+            </div>
+        </section>
+
+        <section class="fiveDayForcast">
+            <h3>5 Day Forcast</h3>
+            <div class="flex">
+                <div class="col">
+                    <span class="label">Monday</span>
+                    <img src="/lesson6/images/iconfinder_flash-cloud_2995010.png" alt="cloudy with lightning icon">
+                    <span class="data">High Temp<br>50º</span>
+                </div>
+                <div class="col">
+                    <span class="label">Tuesday</span>
+                    <img src="/lesson6/images/iconfinder_snow-cloud_2995007.png" alt="cloudy with snow icon">
+                    <span class="data">High Temp<br>35º</span>
+                </div>
+                <div class="col">
+                    <span class="label">Wednesday</span>
+                    <img src="/lesson6/images/iconfinder_sun_2995005.png" alt="sun icon">
+                    <span class="data">High Temp<br>60º</span>
+                </div>
+                <div class="col">
+                    <span class="label">Thursday</span>
+                    <img src="/lesson6/images/iconfinder_rain-cloud_2995003.png" alt="rain cloud icon">
+                    <span class="data">High Temp<br>45º</span>
+                </div>
+                <div class="col">
+                    <span class="label">Friday</span>
+                    <img src="/lesson6/images/iconfinder_snow_2995006.png" alt="snowicon">
+                    <span class="data">High Temp<br>30º</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="article">
+            
+            <h3>Catchy Title!</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar, diam non ullamcorper semper, lectus metus posuere odio, at tristique mauris sem eget quam. Integer ligula mauris, malesuada eget felis vel, semper viverra ligula. Vestibulum eleifend congue ipsum a convallis. Suspendisse potenti. Cras sit amet tempus orci. Aliquam nec metus dui. Morbi et nunc id justo vestibulum faucibus at ac erat. Suspendisse eget iaculis augue, in faucibus sapien. Aliquam molestie ligula sit amet risus rhoncus suscipit. Etiam ultricies, libero dictum elementum ultricies, tortor lacus eleifend lorem, eu maximus augue mi eget ligula. In hac habitasse platea dictumst.
+
+            Vestibulum placerat pharetra ipsum a tincidunt. Mauris pretium, lacus ut faucibus pharetra, purus mi viverra sapien, a pellentesque mauris sapien vel massa. Nullam et orci augue. Integer in volutpat nisl. Nulla ut neque vitae metus fringilla congue. Sed at urna mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum vehicula felis et volutpat semper. Donec tincidunt eros sed convallis consequat. Fusce id iaculis sapien. Nam quis tempor arcu.</p>
+            <img src="/lesson6/images/Optimized-wooden-log-near-body-of-water-1694642.jpg" alt="log near a body of water">
+            
+        </section>
+
+        <section class="contactInformation">
+            <h3>Contact Information</h3>
+            <section id="contactGrid">
+                <div class="column">
+                <img src="/lesson6/images/rsz_capture_preston_idaho.jpg" alt="map of preston">
+                </div>
+                <div class="column">
+                    
+                    <p>Phone: 555-867-5309</p>
+                    <p>Email: email@donotemail.org</p>
+                    <p>Address: 123 Any Street, Preston Idaho, 12345</p>
+                
+                 </div>
+            </section>
+        </section>
+    
+    </main>
+
+
+    <footer>
+        <p>&copy; 2020 | Darrin Fry | Utah |
+            <a href="https://www.byui.edu/online " >BYUI Online Learning</a> </p>
+        <div id="last_modified"></div>
+        <script src="/lesson6/js/updated.js"> </script>
+        <script src="/lesson6/js/menu.js"> </script>
+        <script src="/lesson6/js/pancake.js"></script>
+        <script src="/lesson6/js/windchill.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({google: {families: ["Montserrat", "Lora"]}})
+    </script>
+</body>
+
+</html>
