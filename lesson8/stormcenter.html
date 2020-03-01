@@ -47,8 +47,8 @@
             <h1>Storm Center</h1>
         </div>
         <form method="get" action="thanks.html">
-            <div id="storm-form">
-                <fieldset id="storm-form">
+            <div >
+                <fieldset>
                     <legend>User Information</legend>
                     
                     <label for="name">Full Name:</label> <br>
@@ -57,18 +57,18 @@
                     <label for="email">Email:</label> <br>
                         <input type="email" id="email" name="email" placeholder="email@email.com">
                     <br>
-                    <label for="phone number">Phone Number:</label> <br>
+                    <label for="phone-number">Phone Number:</label> <br>
                         <input type="tel" id="phone_number" name="phone" placeholder="(555)555-5555" required>
                     <br>
-                    <label for="zip code">Zip Code:</label> <br>
+                    <label for="zip-code">Zip Code:</label> <br>
                         <input type="number" id="zip_code" name="zip" placeholder="" required>
                     <br>
                 </fieldset>
                 <br>
-                <fieldset id="storm-form">
+                <fieldset >
                     <legend>Storm Information</legend>
                 
-                    <label for="storm date">Storm Date:</label> <br>
+                    <label for="storm-date">Storm Date:</label> <br>
                         <input type="date" id="storm_date" name="date" >
                     <br>
                     <label for="storm type">Storm Type</label> <br>
@@ -81,7 +81,7 @@
                                 <option value="Hail">
                             </datalist>
                     <br>
-                    <label for="storm severity">Storm Severity:</label> <br>
+                    <label for="storm-severity">Storm Severity:</label> <br>
                         <input type="range" list="storm_severity" id="severity" name="severity" >
                             <datalist id="storm_severity">
                                 <option value="0">
@@ -97,7 +97,7 @@
                                 <option value="100">
                             </datalist>
                     <br>
-                    <label for="storm region">Storm Region:</label> <br>
+                    <label for="storm-region">Storm Region:</label> <br>
                         <select name="storm_region">
                             <option value="default" selected disabled>Select Region</option>
                             <option value="preston">Preston</option>
@@ -105,7 +105,7 @@
                             <option value="fishhaven">Fish Haven</option>
                         </select>
                     <br>
-                    <label for="in danger">In-Danger Level:</label> <br>
+                    <label for="in-danger">In-Danger Level:</label> <br>
                         <input type="radio" id="yes" value="yes" >
                             <label for="yes">Yes</label>
                         <input type="radio" id="maybe" value="maybe" >
