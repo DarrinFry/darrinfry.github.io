@@ -394,7 +394,7 @@ body {
 .data h4 {
     font-size: 1.1rem;
     text-align: center;
-    background-color: none;
+    background-color: transparent;
     text-shadow: 2px 2px 4px black;
 }
 
