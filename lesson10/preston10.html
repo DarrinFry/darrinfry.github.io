@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="CS230 Weather Page">
+        <title>Blue Sky Weather - Storm Center</title>
+        <link rel="shortcut icon" href="/lesson5/images/favicon.ico">
+        <link rel="stylesheet" href="/lesson10/css/normalize.css">
+        <link rel="stylesheet" href="/lesson10/css/gallery-small.css">
+        <link rel="stylesheet" href="/lesson10/css/gallery-medium.css">
+        <link rel="stylesheet" href="/lesson10/css/gallery-large.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat%7cOpen+Sans&display=swap
+        " rel="stylesheet">
+    
+        
+    </head>
+
+
+<body>
+    <div id="pancake"><h1 class="banner">Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park!</h1></div>
+    <header>        
+        <img id="logo" src="/lesson3/images/iconfinder_weather-ui-ux-mobile-web_4960756.png" alt="Weather icon">
+        <section class="headingFlex"><h1> Blue Sky Weather</h1>
+            <br>
+            <h3>If the sky is not blue now, just wait. It always gets better.</h3>
+            </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="/lesson10/index.html">Home</a></li>
+            <li><a class="current" href="/lesson10/preston10.html">Preston</a></li>
+            <li><a href="/lesson10/fish-haven.html">Fish Haven</a></li>
+            <li><a href="/lesson10/soda-springs.html">Soda Springs</a></li>
+            <li><a href="/lesson10/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson10/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+
+    <main>
+        <div class="page"> 
+            <h3 class="pageh3a">~~Preston~~</h3>
+        </div>
+        <section class="weatherSummary">
+            <h3>Weather Summary</h3>
+            <picture> 
+                <source srcset="/lesson10/images/idaho-farm-medium.jpg" media="(min-width: 32.5em) and (max-width: 59.99em)">
+                <source srcset="/lesson10/images/idaho-farm-large.jpg" media="(min-width: 60em)">
+                <img src="/lesson10/images/idaho-farm-small.jpg" alt="Bright sun with some clouds just above the mountain line and a green field with trees.">
+            </picture>
+            <div class="summaryInset">
+                <p> Currently: <span id="current1">Sunny</span></p>
+                <p> Temperature: <span id="temp1">45</span>ºF</p>
+                <p> Wind Chill: <span id="windchill"></span></p>
+                <p> Humidity: <span id="humid1">32</span>%</p>
+                <p> Wind Speed: <span id="wind1">8</span> MPH</p>
+            </div>
+        </section>
+
+        <section class="fiveDayForcast">
+            <h3>5 Day Forcast</h3>
+           
+        </section>
+
+        <section class="article">
+            
+            <h3>Winter is almost over!!</h3>
+
+            <p>
+                As spring approaches and winter leaves us, we find our beautiful reservoirs filling with plenty of fresh, clean water.  Due to the recent increase in growth in the Preston area, we have been asked if we will have enough water.  Luckily, yes, we will have plenty of water to go around.  We want to remind you of the importance of using this precious water wisely so that we can continue to have an ample supply.  First, water your yards deeply and on alternating schedules. Second, showers use less water than a bath, so consider showering with a friend (it is more fun!) Third, don't leave your faucets running while you brush your teeth, this wastes water.  This is also the part of the paragraph where I randomly say things to see if anyone actually reads these things; if so, I hope you are having a great day! Remember to wash your hands and don't touch your face.      
+            </p>
+            <div class="hero-image">
+                
+            </div>
+            
+        </section>
+
+        <section class="contactInformation">
+            <h3>Contact Information</h3>
+            <section id="contactGrid">
+                <div class="column">
+                <img src="/lesson6/images/rsz_capture_preston_idaho.jpg" alt="map of preston">
+                </div>
+                <div class="column">
+                    
+                    <p>Phone: 555-867-5309</p>
+                    <p>Email: email@donotemail.org</p>
+                    <p>Address: 123 Any Street, Preston Idaho, 12345</p>
+                
+                 </div>
+            </section>
+        </section>
+    
+    </main>
+
+
+    <footer>
+        <p>&copy; 2020 | Darrin Fry | Utah |
+            <a href="https://www.byui.edu/online " >BYUI Online Learning</a> </p>
+        <div id="last_modified"></div>
+        <div>
+            Forecast and Weather information provided by <a href="https://openweathermap.org">openweathermap.org</a>
+        </div>
+        
+        <script src="/lesson6/js/updated.js"> </script>
+        <script src="/lesson6/js/menu.js"> </script>
+        <script src="/lesson6/js/pancake.js"></script>
+        <script src="/lesson10/js/prestonweatherapi.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({google: {families: ["Montserrat", "Lora"]}})
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+@media only screen and (min-width: 60em) {
+       
+    footer {
+        max-width: 80%;
+        
+    } 
+    main {
+        max-width: 98%;
+    }
+    .container {
+        margin: .1rem auto; 
+        display:grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        max-width: 98%;
+        justify-content: center;
+    }
+    
+    figure:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
+    div.data{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+        
+    }
+    
+    div.data section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+}
