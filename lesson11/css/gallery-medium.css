@@ -1,0 +1,137 @@
+@media only screen and (min-width: 32.5em) {
+	footer {
+        max-width: 90%;
+	}
+	main{
+		max-width: 98%;
+	}
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+
+	.fiveDayForcast {
+		display: block;
+		margin: auto;
+		max-width: 90%;
+	} 
+
+	.gridforecast {
+        display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		border-radius: 8px;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        background: #005381;
+		color: white;
+		text-shadow: 2px 2px 4px black;
+		
+    }
+    .forecast-item {                
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+		padding: .50rem;
+		
+
+		
+    }
+    .forecast-item img {
+        padding: .5rem;
+    }
+    
+    h4.forecast-item {
+		background: lightblue;
+		border-radius: 8px;
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+	}
+	h4.forecast-item:nth-child(5) {
+		border-right: 2px solid black;
+		margin-right: 20px;
+	}
+	h4.forecast-item:nth-child(1) {
+		margin-left: 20px;
+	}
+	
+	.article {
+		text-align: justify;
+        margin: auto;
+        
+    }
+
+    .article img {
+		float: right;
+		max-width: 80%;
+     		
+	}
+	#contactGrid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.column {
+		padding: 10px;
+		font-size: 12px;
+		text-align: center;
+		background-color: white;
+		border-radius: 10px;
+		
+	}
+
+	.column img {
+		display: block;
+		max-width: 300px;
+		height: auto;
+	}
+	
+	.container {
+		margin: 1rem auto; 
+		display:grid; 
+		grid-template-columns: 1fr 1fr; 
+		max-width: 90%; 
+		justify-content: center
+	}
+
+	div.data {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	   
+	}  
+	
+	div.data img {
+		width: 95%;
+    	height: auto;
+    	margin: auto;
+    	display: flex;
+    	padding: 10px;
+	}
+	div.data :nth-child(odd) {
+		flex-direction: row-reverse;
+	}
+	
+	div.data :nth-child(even) {
+		flex-direction: row;
+	}
+
+	.upcomingEvents p {
+		
+		font-size: 1.2em;
+		
+	}
+
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="CS230 Weather Fish Haven">
+        <title>Blue Sky Weather - Fish Haven</title>
+        <link rel="shortcut icon" href="/lesson11/images/favicon.ico">
+        <link rel="stylesheet" href="/lesson11/css/normalize.css">
+        <link rel="stylesheet" href="/lesson11/css/gallery-small.css">
+        <link rel="stylesheet" href="/lesson11/css/gallery-medium.css">
+        <link rel="stylesheet" href="/lesson11/css/gallery-large.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat%7cOpen+Sans&display=swap
+        " rel="stylesheet">
+    
+        
+    </head>
+
+
+<body>
+    <div id="pancake"><h1 class="banner">Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park!</h1></div>
+    <header>        
+        <img id="logo" src="/lesson11/images/iconfinder_weather-ui-ux-mobile-web_4960756.png" alt="Weather icon">
+        <section class="headingFlex"><h1> Blue Sky Weather</h1>
+            <br>
+            <h3>If the sky is not blue now, just wait. It always gets better.</h3>
+            </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="/lesson11/index.html">Home</a></li>
+            <li><a href="/lesson11/preston.html">Preston</a></li>
+            <li><a class="current" href="/lesson11/fish-haven.html">Fish Haven</a></li>
+            <li><a href="/lesson11/soda-springs.html">Soda Springs</a></li>
+            <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    
+
+    <main>
+        <div class="page"> 
+            <h3 class="pageh3a">~~Fish Haven~~</h3>
+        </div>
+        <section class="weatherSummary">
+            <h3>Weather Summary</h3>
+            <picture> 
+                <source srcset="/lesson11/images/fish-haven-medium.jpg" media="(min-width: 32.5em) and (max-width: 59.99em)">
+                <source srcset="/lesson11/images/fish-haven-large.jpg" media="(min-width: 60em)">
+                <img src="/lesson11/images/fish-haven-small.jpg" alt="river in Idaho">
+            </picture>
+            <div class="summaryInset">
+                <p> Currently: <span id="current1">Sunny</span></p>
+                <p> Temperature: <span id="temp1">45</span>ºF</p>
+                <p> Wind Chill: <span id="windchill"></span></p>
+                <p> Humidity: <span id="humid1">32</span>%</p>
+                <p> Wind Speed: <span id="wind1">8</span> MPH</p>
+            </div>
+        </section>
+
+        <section class="fiveDayForcast">
+            <h3>5 Day Forcast</h3>
+           
+        </section>
+
+        <section class="events">
+            <h3> Upcoming Events:</h3>
+            
+        </section>
+        <div class="upcomingEvents"></div>
+
+        <section class="article">
+            
+            <h3>How big is your fish day is coming.</h3>
+
+            <p>
+                How big was your last catch?  Mine was this [-------------] big.  No, really, it was this [---------------------] big.   I swear, it was THIS BIG [---------------------------].  Okay, okay... So it was actually this big [---].  Come show us your biggest catch at the annual big fish rally down at the east dock of the lake.  Fish fries, hot chocolate, ghost stories, and all your favorite townies will be there to scare and amaze you.  Plus, it will be a free fishing day at the lake (remember to still play by the rules) and have some fun.             </p>
+            <div class="hero-image-fish-haven">
+                
+            </div>
+            
+        </section>
+
+        <section class="contactInformation">
+            <h3>Contact Information</h3>
+            <section id="contactGrid">
+                <div class="column">
+                <img src="/lesson11/images/rsz_capture_preston_idaho.jpg" alt="map of preston">
+                </div>
+                <div class="column">
+                    
+                    <p>Phone: 555-867-5309</p>
+                    <p>Email: email@donotemail.org</p>
+                    <p>Address: 123 Any Street, Preston Idaho, 12345</p>
+                
+                 </div>
+            </section>
+        </section>
+    
+    </main>
+
+
+    <footer>
+        <p>&copy; 2020 | Darrin Fry | Utah |
+            <a href="https://www.byui.edu/online " >BYUI Online Learning</a> </p>
+        <div id="last_modified"></div>
+        <div>
+            Forecast and Weather information provided by <a href="https://openweathermap.org">openweathermap.org</a>
+        </div>
+        
+        <script src="/lesson11/js/updated.js"> </script>
+        <script src="/lesson11/js/menu.js"> </script>
+        <script src="/lesson11/js/pancake.js"></script>
+        <script src="/lesson11/js/fish-havenweatherapi.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({google: {families: ["Montserrat", "Lora"]}})
+    </script>
+</body>
+
+
+</html>
