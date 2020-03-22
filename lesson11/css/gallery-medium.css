@@ -21,10 +21,15 @@
 		display: none;
 	}
 
+	.contactInformation {
+		max-width: 80%;
+		margin: auto;
+	}
+
 	.fiveDayForcast {
 		display: block;
 		margin: auto;
-		max-width: 90%;
+		
 	} 
 
 	.gridforecast {
@@ -37,8 +42,15 @@
         background: #005381;
 		color: white;
 		text-shadow: 2px 2px 4px black;
+		max-width: 80%;
+		margin: auto;
 		
-    }
+	}
+	
+	.gridforecast img {
+		width: auto;
+		height: 100px;
+	}
     .forecast-item {                
         display: flex;
         flex-direction: column;
@@ -89,12 +101,22 @@
 		text-align: center;
 		background-color: white;
 		border-radius: 10px;
+		position: relative;
 		
+	}
+	.column p {
+		line-height: 2em;
+		font-size: 16px;
+		margin: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 
 	.column img {
 		display: block;
-		max-width: 300px;
+		max-width: 95%;
 		height: auto;
 	}
 	
