@@ -254,7 +254,7 @@ footer {
     box-shadow: 8px 8px 8px 0 rgba(50, 50, 50, .2);
     padding: 20px;
     margin: 10px;
-    background-color:#56acdd;
+    background-color: $backgroundColor;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -274,22 +274,24 @@ footer {
 
 }
 .data h2 {
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
     padding: 5px;
-    text-shadow: 2px 2px 4px black;
+    
    
 }
 
 .data h4 {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     text-align: center;
     background-color: transparent;
-    text-shadow: 2px 2px 4px black;
+    
 }
 
 .data p {
     text-align: center;
     margin: 2px;
     line-height: 1.50rem;
+    font-size: 1.25rem;
 }
 

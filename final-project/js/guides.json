@@ -15,60 +15,60 @@
         {
         "name": "Joey",
         "photo": "Joey.jpg",
-        "motto": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
+        "motto": "Man, I’m starving. What was I thinking at dinner? ‘Do you want soup or salad?’ Both. Always order both.",
         "certification": "ACA Level 4",
-        "experience": 2003,
-        "email": "chandler@salmonriveradventures.com",
+        "experience": 2005,
+        "email": "joey@salmonriveradventures.com",
         "bio": 
-            "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
+            "I used to be an actor, so I will have lots of stories to tell. And I love food. If you want to laugh, aske me about hiking Mount Tibidabo"
             
         },
     
         {
         "name": "Ross",
         "photo": "Ross.jpg",
-        "motto": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
+        "motto": "We were on a break!",
         "certification": "ACA Level 4",
-        "experience": 2003,
-        "email": "chandler@salmonriveradventures.com",
+        "experience": 2004,
+        "email": "ross@salmonriveradventures.com",
         "bio": 
-            "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
+            "I spent one day as a furniture mover. Shouting 'pivot' was not really my thing.  I love leather pants and dinosaurs."
             
         },
    
         {
         "name": "Monica",
         "photo": "Monica.jpg",
-        "motto": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
+        "motto": "I got one. ‘Socks. Because your family’s feet deserve the best.'",
         "certification": "ACA Level 4",
         "experience": 2003,
         "email": "chandler@salmonriveradventures.com",
         "bio": 
-            "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
+            "I love to cook. Jam is one of my favorites. Just don't as me to make a salad. (I used to be fat.)"
             
         },
     
         {
         "name": "Phoebe",
         "photo": "Phoebe.jpg",
-        "motto": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
+        "motto": "If you want to receive emails about my upcoming shows please give me money so I can buy a computer.",
         "certification": "ACA Level 4",
-        "experience": 2003,
-        "email": "chandler@salmonriveradventures.com",
+        "experience": 2001,
+        "email": "phoebe@salmonriveradventures.com",
         "bio": 
-            "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
+            "Phoebe. That’s, P, as in Phoebe, H, as in hoebe, O as in oebe, E, as in ebe, B, as in bebe, and E as in… ‘Ello there mate."
             
         },
     
         {
         "name": "Rachel",
         "photo": "Rachel.jpg",
-        "motto": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
+        "motto": "Who’s FICA? Why’s he getting all my money?",
         "certification": "ACA Level 4",
-        "experience": 2003,
-        "email": "chandler@salmonriveradventures.com",
+        "experience": 2006,
+        "email": "rachel@salmonriveradventures.com",
         "bio": 
-            "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
+            "My first real job was as a cofee house waitress; I was not good.  So I went into fashion. I am the most fashionable person on the water."
             
         }
     ]

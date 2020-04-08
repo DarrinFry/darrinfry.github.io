@@ -527,7 +527,7 @@ input, select, textarea {
   box-shadow: 8px 8px 8px 0 rgba(50, 50, 50, 0.2);
   padding: 20px;
   margin: 10px;
-  background-color: #56acdd;
+  background-color: rgba(104, 136, 159, 0.3);
   border-radius: 5px;
   display: flex;
   flex-direction: column; }
@@ -543,20 +543,20 @@ input, select, textarea {
   padding: 10px; }
 
 .data h2 {
-  font-size: 1.5rem;
-  padding: 5px;
-  text-shadow: 2px 2px 4px black; }
+  text-align: center;
+  font-size: 2rem;
+  padding: 5px; }
 
 .data h4 {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   text-align: center;
-  background-color: transparent;
-  text-shadow: 2px 2px 4px black; }
+  background-color: transparent; }
 
 .data p {
   text-align: center;
   margin: 2px;
-  line-height: 1.50rem; }
+  line-height: 1.50rem;
+  font-size: 1.25rem; }
 
 @media only screen and (min-width: 30em) {
   main {
