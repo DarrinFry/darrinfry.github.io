@@ -519,6 +519,45 @@ input, select, textarea {
   background-color: rgba(104, 136, 159, 0.9);
   box-shadow: 0 0 30px #1c3144; }
 
+.data {
+  display: block;
+  padding: 0 5px 5px; }
+
+.data section {
+  box-shadow: 8px 8px 8px 0 rgba(50, 50, 50, 0.2);
+  padding: 20px;
+  margin: 10px;
+  background-color: #56acdd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; }
+
+.data div {
+  margin: auto; }
+
+.data img {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  padding: 10px; }
+
+.data h2 {
+  font-size: 1.5rem;
+  padding: 5px;
+  text-shadow: 2px 2px 4px black; }
+
+.data h4 {
+  font-size: 1.1rem;
+  text-align: center;
+  background-color: transparent;
+  text-shadow: 2px 2px 4px black; }
+
+.data p {
+  text-align: center;
+  margin: 2px;
+  line-height: 1.50rem; }
+
 @media only screen and (min-width: 30em) {
   main {
     max-width: 100%; }
@@ -566,7 +605,25 @@ input, select, textarea {
 
   .left_col, .right_col {
     width: 35%;
-    flex: 1 0 15em; } }
+    flex: 1 0 15em; }
+
+  div.data {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+
+  div.data img {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    padding: 10px; }
+
+  div.data :nth-child(odd) {
+    flex-direction: row-reverse; }
+
+  div.data :nth-child(even) {
+    flex-direction: row; } }
 /* end of media query */
 @media only screen and (min-width: 55em) {
   .hero-image {
@@ -606,5 +663,14 @@ input, select, textarea {
 
   .body-text-2 {
     overflow: hidden;
-    text-align: center; } }
+    text-align: center; }
+
+  div.data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto; }
+
+  div.data section {
+    display: flex;
+    flex-wrap: wrap; } }
 /* end of media query */

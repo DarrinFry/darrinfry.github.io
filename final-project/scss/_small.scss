@@ -245,3 +245,51 @@ footer {
     box-shadow: $boxShadow;
 
 }
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+}
+.data section {
+    box-shadow: 8px 8px 8px 0 rgba(50, 50, 50, .2);
+    padding: 20px;
+    margin: 10px;
+    background-color:#56acdd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.data div {
+    margin: auto;
+}
+.data img {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+
+
+}
+.data h2 {
+    font-size: 1.5rem;
+    padding: 5px;
+    text-shadow: 2px 2px 4px black;
+   
+}
+
+.data h4 {
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: transparent;
+    text-shadow: 2px 2px 4px black;
+}
+
+.data p {
+    text-align: center;
+    margin: 2px;
+    line-height: 1.50rem;
+}
+

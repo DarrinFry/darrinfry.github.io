@@ -53,6 +53,29 @@
 		width: 35%;
 		flex: 1 0 15em;
 	  }
+
+	
+	  div.data {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	   
+	}  
+	
+	div.data img {
+		width: 95%;
+    	height: auto;
+    	margin: auto;
+    	display: flex;
+    	padding: 10px;
+	}
+	div.data :nth-child(odd) {
+		flex-direction: row-reverse;
+	}
+	
+	div.data :nth-child(even) {
+		flex-direction: row;
+	}
 	
 	
 	
