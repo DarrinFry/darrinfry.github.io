@@ -1,7 +1,7 @@
 const cityName ='McCall'
 const cityID = '5600363'    
 const apiKey = 'b88bb8f40c62687e2886e53f80498243';
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json' ;
+const requestURL = "https://darrinfry.github.io/final-project/js/guides.json" ;
 const weatherURL = `https://api.openweathermap.org/data/2.5/weather?id=${cityID}&units=imperial&APPID=${apiKey}`;
 const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?id=${cityID}&units=imperial&APPID=${apiKey}`;
 

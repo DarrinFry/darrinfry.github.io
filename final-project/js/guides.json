@@ -7,13 +7,11 @@
         "certification": "ACA Level 4",
         "experience": 2003,
         "email": "chandler@salmonriveradventures.com",
-        "bio": [
+        "bio": 
             "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
-            ]
-        }
-    ],
-
-    "guides": [
+            
+        },
+    
         {
         "name": "Joey",
         "photo": "Joey.jpg",
@@ -21,13 +19,11 @@
         "certification": "ACA Level 4",
         "experience": 2003,
         "email": "chandler@salmonriveradventures.com",
-        "bio": [
+        "bio": 
             "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
-            ]
-        }
-    ],
-
-    "guides": [
+            
+        },
+    
         {
         "name": "Ross",
         "photo": "Ross.jpg",
@@ -35,13 +31,11 @@
         "certification": "ACA Level 4",
         "experience": 2003,
         "email": "chandler@salmonriveradventures.com",
-        "bio": [
+        "bio": 
             "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
-            ]
-        }
-    ],
-
-    "guides": [
+            
+        },
+   
         {
         "name": "Monica",
         "photo": "Monica.jpg",
@@ -49,13 +43,11 @@
         "certification": "ACA Level 4",
         "experience": 2003,
         "email": "chandler@salmonriveradventures.com",
-        "bio": [
+        "bio": 
             "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
-            ]
-        }
-    ],
-
-    "guides": [
+            
+        },
+    
         {
         "name": "Phoebe",
         "photo": "Phoebe.jpg",
@@ -63,13 +55,11 @@
         "certification": "ACA Level 4",
         "experience": 2003,
         "email": "chandler@salmonriveradventures.com",
-        "bio": [
+        "bio": 
             "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
-            ]
-        }
-    ],
-
-    "guides": [
+            
+        },
+    
         {
         "name": "Rachel",
         "photo": "Rachel.jpg",
@@ -77,9 +67,9 @@
         "certification": "ACA Level 4",
         "experience": 2003,
         "email": "chandler@salmonriveradventures.com",
-        "bio": [
+        "bio": 
             "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
-            ]
+            
         }
     ]
 
