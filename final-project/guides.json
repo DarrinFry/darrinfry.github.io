@@ -1,0 +1,56 @@
+[
+    {"id":1,"photo":"https://grahampearl.github.io/final-project/images/staff1.png","first_name":"Shelba","last_name":"Mc Pake","email":"smcpake0@t-online.de","level":"IFR Guide and Safety Crafter","years":4,"bio":""}
+
+]
+
+
+<main>        
+        <h2>Staff Profiles</h2>        
+        <section class="section2">
+            <div id="staffdata">
+            </div>        
+        </section>
+    </main>
+
+    var staffData = null;
+
+function loadStaffData() {  
+  let apiURLstringForecast = 'https://grahampearl.github.io/final-project/staff.json';  
+  var staffDataRequest = new XMLHttpRequest();
+
+  staffDataRequest.open('Get', apiURLstringForecast, true);
+  staffDataRequest.send();
+
+  staffDataRequest.onload = function () {    
+    staffData = JSON.parse(staffDataRequest.responseText);        
+    unwrappingStaffData(staffData);
+  }
+}
+
+function unwrappingStaffData(staffData) {
+  if (staffData == null) {
+    alert('No Staff Data: Service Down');
+  } else {
+    
+    let textProfile = "";    
+
+    for (i = 0; i < staffData.length; i++) {
+      let imageLink = staffData[i].photo;
+      let nameF = staffData[i].first_name;
+      let nameL = staffData[i].last_name;
+      let email = staffData[i].email;
+      let level = staffData[i].level;
+      let years = staffData[i].years;
+      let bio = staffData[i].bio;
+      let descript = nameL+", "+nameF;            
+
+      let imageP = '<div class="labelContainer"><img src="'+imageLink+'" alt="Photo of '+descript+'" class="labelImage"><div class="labelOverlay">'+descript+'</div></div>';
+      let textBody = '<div><p>Last Name:'+nameL+'</p><p>First Name:'+nameF+'</p><p>Email:'+email+'</p><p>Level:'+level+'</p><p>Years:'+years+'</p><p>Bio:'+bio+'</p></div>';
+
+      textProfile = textProfile +'<h3>'+descript+'</h3>'+ '<section class="sectionInfo">' + imageP + textBody+ '</section>';            
+    }
+
+    var dataGrid = document.getElementById('staffdata');
+    dataGrid.innerHTML = textProfile;
+  }
+}

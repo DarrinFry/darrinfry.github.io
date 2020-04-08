@@ -48,6 +48,11 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
+
+	.left_col, .right_col{
+		width: 35%;
+		flex: 1 0 15em;
+	  }
 	
 	
 	

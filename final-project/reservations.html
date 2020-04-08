@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="CS230 Final Project">
+        <title>Salmon River Adventures - Home</title>
+        <link rel="shortcut icon" href="/final-project/images/">
+        <link rel="stylesheet" href="/final-project/css/styles.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Holtwood+One+SC%7cMontserrat&display=swap" rel="stylesheet">
+        
+    </head>
+
+
+<body>
+    
+    <header class="hero-image">
+        <section class="header-grid"> 
+            <img id="logo" src="/final-project/images/sra-logo-small.png" alt="Salmon River Adventures Logo">
+            
+            <div class="summaryInset">
+                <p> Currently: <span id="current1">Sunny</span></p>
+                <p> Temp: <span id="temp1">45</span>ºF</p>
+            </div>
+            <section>
+                <h1 class="header-h1"> Salmon River Adventures</h1>            
+            </section>
+        </section> 
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a href="/final-project/index.html">Home</a></li>
+                <li><a href="/final-project/adventures.html">Adventures</a></li>
+                <li><a href="/final-project/guides.html">Guides</a></li>
+                <li><a class="current" href="/final-project/reservations.html">Reservations</a></li>
+                <li><a href="/final-project/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+
+    <main>
+        <section class=" content">
+            <img class="body-img-1" src="/final-project/images/waterfall-1549635_1920.jpg" alt="Image">
+
+            <div class="body-text-1">
+                <h3>Interesting Heading</h3>
+
+                <div>
+                    <p> Your river rafting Excursion is just a few clicks away.  Fill out the form below, make sure you tell us which date you want, and our experts will contact you to confirm your reservation.</p>
+                </div>
+            </div>            
+         </section>
+        <br> <br>
+        <section class="content">
+        <form method="get" action="thanks.html">
+            <div >
+                
+                <fieldset>
+                    <legend>Your Information</legend>
+                    
+                    <label >Full Name:</label> <br>
+                        <input type="text" id="name" name="name" placeholder="Full Name"  required>
+                    <br>
+                    <label >Email:</label> <br>
+                        <input type="email" id="email" name="email" placeholder="email@email.com">
+                    <br>
+                    <label >Phone Number:</label> <br>
+                        <input type="tel" id="phone_number" name="phone" placeholder="(555)555-5555" required>
+                    <br>
+                    <label >Reservation Date:</label> <br>
+                        <input type="date" id="reservation_date" name="date" >
+                    <br>
+                    <label >Desired Rafting Excursion:</label> <br>
+                        <select name="storm_region">
+                            <option value="default" selected disabled>Select Excursion</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    <br>
+                    <label >Addtional Information or Comments:</label> <br>
+                        <textarea id="comments" rows="8" cols="25" name="comments" > Please enter any additional comments or information here:</textarea>
+                    <br>
+                    <label ></label> <br>
+                        <input type="submit" id="submit" name="submit" >
+                </fieldset>
+            </div>
+        </form>
+    </section>  
+    </main>
+
+
+    <footer>
+        <p>&copy; 2020 | Darrin Fry | Utah |
+            <a href="https://www.byui.edu/online " >BYUI Online Learning</a> </p>
+        <div id="last_modified"></div>
+        <script src="/final-project/js/updated.js"> </script>
+        <script src="/final-project/js/menu.js"> </script>
+        <script src="/final-project/js/windchill.js"></script>
+        <script src="/final-project/js/weather.js"></script>
+    </footer>
+    
+    
+</body>
+
+</html>
