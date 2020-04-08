@@ -65,7 +65,7 @@ fetch(requestURL)
             certification.textContent = "Certification: " + guides[i].certification;
             experience.textContent = "Rafting since: " + guides[i].experience;
             email.textContent = "Email Address: " + guides[i].email;
-            bio.textContent = "Upcoming Events: \n" + guides[i].bio;
+            bio.textContent = "A little about me: \n" + guides[i].bio;
 
 
             image.setAttribute('src', '/final-project/images/' + guides[i].photo);
