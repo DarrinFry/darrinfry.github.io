@@ -1,17 +1,89 @@
 {
-    "towns": [
+    "guides": [
         {
-        "name": "Franklin",
-        "photo": "franklin.jpg",
-        "motto": "Where you will grow!",
-        "yearFounded": 1788,
-        "currentPopulation": 30458,
-        "averageRainfall": 21,
-        "events": [
-            "March 4: March to the Drum of Donuts",
-            "September 5 - 11: Founder Days",
-            "December 1 - 26: Christmas in the Heart"
+        "name": "Chandler",
+        "photo": "Chandler.jpg",
+        "motto": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
+        "certification": "ACA Level 4",
+        "experience": 2003,
+        "email": "chandler@salmonriveradventures.com",
+        "bio": [
+            "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
+            ]
+        }
+    ],
+
+    "guides": [
+        {
+        "name": "Joey",
+        "photo": "Joey.jpg",
+        "motto": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
+        "certification": "ACA Level 4",
+        "experience": 2003,
+        "email": "chandler@salmonriveradventures.com",
+        "bio": [
+            "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
+            ]
+        }
+    ],
+
+    "guides": [
+        {
+        "name": "Ross",
+        "photo": "Ross.jpg",
+        "motto": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
+        "certification": "ACA Level 4",
+        "experience": 2003,
+        "email": "chandler@salmonriveradventures.com",
+        "bio": [
+            "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
+            ]
+        }
+    ],
+
+    "guides": [
+        {
+        "name": "Monica",
+        "photo": "Monica.jpg",
+        "motto": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
+        "certification": "ACA Level 4",
+        "experience": 2003,
+        "email": "chandler@salmonriveradventures.com",
+        "bio": [
+            "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
+            ]
+        }
+    ],
+
+    "guides": [
+        {
+        "name": "Phoebe",
+        "photo": "Phoebe.jpg",
+        "motto": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
+        "certification": "ACA Level 4",
+        "experience": 2003,
+        "email": "chandler@salmonriveradventures.com",
+        "bio": [
+            "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
+            ]
+        }
+    ],
+
+    "guides": [
+        {
+        "name": "Rachel",
+        "photo": "Rachel.jpg",
+        "motto": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
+        "certification": "ACA Level 4",
+        "experience": 2003,
+        "email": "chandler@salmonriveradventures.com",
+        "bio": [
+            "I lived in NYC above a cofee house for years, married my love (who was also my neighbor) and moved out of the city.  I have been rafting ever since."
             ]
         }
     ]
+
+
+
+    
 }
