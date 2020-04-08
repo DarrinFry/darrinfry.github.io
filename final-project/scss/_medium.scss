@@ -1,0 +1,53 @@
+
+	
+	main{
+		max-width: 100%;
+	}
+	nav {
+		position: absolute;
+		top: 25%;
+		width: 100%;
+		background-color:$secondaryColor;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+
+	.contactInformation {
+		max-width: 80%;
+		margin: auto;
+    }
+
+    .header-h1 {
+		top: 40px;
+        font-size: 1.1em;
+        letter-spacing: .1em;
+    }
+	.parent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+	#contactGrid {
+		height: 300px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	
+	

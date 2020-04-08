@@ -1,0 +1,50 @@
+    .hero-image {
+    
+    margin-bottom: 0;
+    }
+
+    .header-h1 {
+        
+        font-size: 1.5em;
+        letter-spacing: .2em;
+    }
+
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+		
+		padding: 20px;
+		width: 80%;
+        margin-top: 30px;
+		
+		box-shadow: $boxShadow;
+	
+	}
+	.body-img-1 {
+		float: left;
+		margin-right: 20px;
+		width: 400px;
+		height: auto;
+		box-shadow: $boxShadow;
+	}
+	
+	.body-text-1 {
+		overflow: hidden;
+		text-align: center;
+	}
+    .body-img-2 {
+		float: right;
+		margin-left: 20px;
+		width: 400px;
+		height: auto;
+		box-shadow: $boxShadow;
+	}
+	
+	.body-text-2 {
+		overflow: hidden;
+		text-align: center;
+    }
+    
+    
