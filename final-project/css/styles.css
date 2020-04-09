@@ -346,18 +346,19 @@ template {
   top: 3%;
   right: 3%;
   background-color: whitesmoke;
-  padding: 10px;
+  padding: 0px;
   box-shadow: 0 0 30px #1c3144;
-  height: 80px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(50, 50, 50, 0.4);
   border-radius: 5px; }
 
 .summaryInset p {
-  margin-top: 18px;
+  margin: 10px;
   font-size: .90em;
-  line-height: .90em; }
+  line-height: 1.10em; }
 
 nav {
   position: absolute;
