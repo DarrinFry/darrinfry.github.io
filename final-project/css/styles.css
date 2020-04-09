@@ -455,6 +455,17 @@ nav li .current {
   width: 100%;
   position: absolute; }
 
+.map-contact {
+  overflow: hidden;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 30px #1c3144; }
+
+.map-contact iframe {
+  height: 100%;
+  width: 100%; }
+
 .contact {
   float: none;
   text-align: center; }

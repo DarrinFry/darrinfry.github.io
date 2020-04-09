@@ -169,6 +169,22 @@ nav li .current {
     
 }
 
+.map-contact {
+    overflow: hidden;
+    
+    align-items: center;
+    width: 100%;
+    height: auto;
+    box-shadow: $boxShadow;
+}
+
+.map-contact iframe {
+    height: 100%;
+    width: 100%;
+      
+}
+
+
 .contact {
     float: none;
     text-align: center;
