@@ -84,13 +84,15 @@ nav li .current {
 .navigation a {
 	display: block;
 	color: #fff;
-	padding: 0.75rem;
+	padding: .50rem;
 	text-align: center;
-	text-decoration: none;
+    text-decoration: none;
+    margin-left: 15px;
 }
 
 .navigation .active{
     background-color: #56acdd;
+    border-radius: 5px;
 }
 .navigation a:hover {
 	color: #000;
@@ -260,11 +262,13 @@ footer {
 	padding: 0 5px 5px;
 }
 .data section {
-    box-shadow: 8px 8px 8px 0 rgba(50, 50, 50, .2);
     padding: 20px;
-    margin: 10px;
-    background-color: $backgroundColor;
     border-radius: 5px;
+    height: auto;
+    margin-top: 30px;
+    
+    background-color: $backgroundColor;
+    box-shadow: $boxShadow;
     display: flex;
     flex-direction: column;
     

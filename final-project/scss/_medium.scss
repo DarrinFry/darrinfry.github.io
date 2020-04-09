@@ -63,7 +63,7 @@
 	}  
 	
 	div.data img {
-		width: 95%;
+		max-width: 80%;
     	height: auto;
     	margin: auto;
     	display: flex;
@@ -73,9 +73,6 @@
 		flex-direction: row-reverse;
 	}
 	
-	div.data :nth-child(even) {
-		flex-direction: row;
-	}
 	
 	
 	

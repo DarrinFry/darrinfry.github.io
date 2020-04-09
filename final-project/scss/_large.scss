@@ -50,9 +50,11 @@
 	
     div.data{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: auto;
-        
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 40px;
+		margin: auto;
+		max-width: 80%;
+        padding: 10px;
     }
     
     div.data section{
