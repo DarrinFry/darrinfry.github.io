@@ -354,6 +354,11 @@ template {
   text-shadow: 2px 2px 4px rgba(50, 50, 50, 0.4);
   border-radius: 5px; }
 
+.summaryInset p {
+  margin-top: 18px;
+  font-size: .90em;
+  line-height: .90em; }
+
 nav {
   position: absolute;
   top: 5%;
