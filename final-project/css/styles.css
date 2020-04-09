@@ -539,13 +539,6 @@ footer {
   transform: translate(-50%, -50%);
   color: black; }
 
-fieldset {
-  margin: auto;
-  max-width: 50%;
-  box-shadow: 0 0 30px #1c3144;
-  margin: auto;
-  padding: 20px; }
-
 input, select, textarea {
   border-radius: 5px;
   padding: .3em;
