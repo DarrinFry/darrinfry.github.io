@@ -1,3 +1,5 @@
+*{font-family: 'Montserrat', sans-serif;}
+
 .hero-image {
     background-image: url("/final-project/images/header_1920_800_med.jpg");
     background-color: #cccccc;
@@ -141,6 +143,12 @@ nav li .current {
 .body-text-2 {
     float: none;
     text-align: center;
+}
+.body-text-3 {
+    float: none;
+    text-align: center;
+    font-size: 1.50em;
+    line-height: 1.50em;
 }
 
 .map {
