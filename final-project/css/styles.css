@@ -412,7 +412,8 @@ nav li .current {
   align-items: center;
   width: 100%;
   height: auto;
-  box-shadow: 0 0 30px #1c3144; }
+  box-shadow: 0 0 30px #1c3144;
+  vertical-align: middle; }
 
 .body-text-1 {
   float: none;
@@ -557,6 +558,14 @@ input, select, textarea {
   margin: 2px;
   line-height: 1.50rem;
   font-size: 1.25rem; }
+
+.trip {
+  list-style-type: none;
+  text-align: center;
+  padding: 0em; }
+
+.trip h3 {
+  margin: 5px; }
 
 @media only screen and (min-width: 30em) {
   main {
