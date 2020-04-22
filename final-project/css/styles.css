@@ -437,7 +437,6 @@ nav li .current {
   width: 83%;
   height: auto;
   margin-top: 30px;
-  margin: auto;
   background-color: rgba(104, 136, 159, 0.3);
   box-shadow: 0 0 30px #1c3144; }
 
@@ -715,7 +714,6 @@ thead {
     width: 83%;
     height: auto;
     margin-top: 30px;
-    margin: auto;
     background-color: rgba(104, 136, 159, 0.3);
     box-shadow: 0 0 30px #1c3144; }
 
