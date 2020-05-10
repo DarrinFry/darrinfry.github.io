@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- saved from url=(0099)https://content.byui.edu/file/5baa7973-1f47-4b74-bc67-7782514e10e4/1/Teach/213.03.TeachProblem.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style> /* #0 This code by Taylor Frisby*/
+      body { font-size:16px; 
+        font-family:"Comic Sans MS", cursive, sans-serif;
+        background-image: url("pug.gif");
+        background-color: black;
+        color: rgb(158, 158, 158);
+        text-shadow: rgba(0, 0, 0, 0.5) 3px 3px 1px;
+     }
+	</style>
+    <style> /* #1 This code by Darrin Fry */
+	   @import url('https://fonts.googleapis.com/css?family=Nova+Mono|Pacifico&display=swap');
+	   body { 
+      font: size 16px; 
+      font-family: 'Nova Mono', monospace;
+      margin: auto;
+      margin-top: 40px;
+      border: 5px solid black;
+      max-width: 90%;
+     }
+     h1 {
+      font-family: 'Pacifico', cursive;
+     }
+
+     ul {
+       padding: 5px;
+     }
+     .document {
+           position: flex;
+      flex-direction: column;
+     }
+     .content {
+      background: radial-gradient(circle, rgba(250,250,250,0) 0%, rgba(255,255,255,1) 0%, rgba(220,243,255,1) 85%);
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+      margin: auto;
+      padding: 10px;
+     }
+     #title, #bottom {
+       margin-top: 20px;
+       margin-bottom: 20px;
+       text-align: center;
+       padding: 10px;
+       filter: grayscale(1);
+       background-image: url("https://picsum.photos/1920/250/?blur=2&grayscale");
+       background-repeat: no-repeat;
+       color: oldlace;
+       mix-blend-mode: screen;
+       text-shadow: .1em 0 black, 0 .1em black, -.1em 0 black, 0 -.1em black;
+       letter-spacing: .10em;
+     }
+     #title {
+       margin-bottom: 20px;
+     }
+     #menuBar {
+      order: 1;
+      margin: 0px;
+      margin-left: 10px;
+      border-radius: 5px;
+      border: 2px solid black;
+     }
+     #menuBarList {
+      padding-top: 30px;
+     }
+     .menuBarItem {
+      margin: auto;
+      border: 2px solid black;
+      list-style-type: none;
+      padding: 5px;
+      margin-right: 5px;
+      margin-top: 15px;
+      border-radius: 5px;
+      border: 2px solid black;
+     }
+     .menuBarItem:hover {
+      background-image: linear-gradient(to bottom right, rgba(19, 201, 177, 0.521), rgba(59, 160, 155, 0.336));
+     }
+     #text {
+      padding: 5px;
+      float: right;
+      margin: 0px;
+      margin-right: 10px;
+      text-align: center;
+      order: 3;
+      border-radius: 5px;
+      border: 2px solid black;
+     }
+     #sidebar {
+      order: 2;
+     }
+     #bottom {
+       order: 4;
+     }
+     div#text a:nth-of-type(-n+4) {
+      display: none;
+    }
+    div#text p:nth-last-of-type(1) {
+      font-size: 10px;
+    }
+    div#text p {
+      font: .80em;
+    }
+    #bottom:after{
+      content: "This page was styled by Darrin Fry";
+    }
+    div#sidebar p::after {
+      content: "The major changes, all done through CSS, are the addition of a random image in the header and footer, an adjustment to the order of the elements, removal of the links from the div#text. In addition to those major changes the page has been styled with more traditional methods. Refresh the page and see what fun images come up.";
+    }
+    @media only screen and (max-width: 55em){
+    .content {
+      grid-template-columns: 1fr 1fr;
+     }
+     #text {
+      grid-column: 1 / 3;
+     }
+     #sidebar {
+       padding: 5px;
+      border-radius: 5px;
+      border: 2px solid black;
+     }
+     #text {
+       border: none;
+     }
+    }
+	</style>
+    <style> /* #2 */
+	   #title, #text, #sidebar, #bottom {
+       display: none;
+     }
+     .content::after {
+       content: "This space reserved for Robert Metler"
+     }
+	</style>
+    <style> /* #3 */
+	   #title, #text, #sidebar, #bottom {
+       display: none;
+     }
+     .content::after {
+       content: "This space reserved for Justen Neeley"
+     }
+	</style>
+        
+    <title>Week 03 : CSS</title>
+   </head>
+   <body onload="disableStyles()">
+      <div class="document">
+        <div id="title">
+          <h1>Week 03 : CSS</h1>
+          <p>This page will demonstrate how to switch between different CSS stylesheets to achieve a given effect</p>
+        </div> <!--title -->
+        <div class="content">
+          <div id="menuBar">
+            <ul id="menuBarList">
+              <li class="menuBarItem" onclick="applyStyle(0)">Stylesheet 1</li>
+              <li class="menuBarItem" onclick="applyStyle(1)">Stylesheet 2</li>
+              <li class="menuBarItem" onclick="applyStyle(2)">Stylesheet 3</li>
+              <li class="menuBarItem" onclick="applyStyle(3)">Stylesheet 4</li>
+              <li class="menuBarItem" onclick="disableStyles()">No Stylesheet</li>
+            </ul>
+          </div> <!-- menuBar -->
+          <div id="text">
+            <h1>Select the Stylesheet</h1>
+            <p>There are four stylesheets that you may select from. Each one will change the coloring, fonts, 
+            		and even the layout of the page.You can change the layout of this page by selecting different 
+                    stylesheets in the menu, or by selecting one of the following links:<br>
+              <a href="https://content.byui.edu/file/5baa7973-1f47-4b74-bc67-7782514e10e4/1/Teach/213.03.TeachProblem.html#" onclick="applyStyle(0)">Stylesheet 1</a>,
+              <a href="https://content.byui.edu/file/5baa7973-1f47-4b74-bc67-7782514e10e4/1/Teach/213.03.TeachProblem.html#" onclick="applyStyle(1)">Stylesheet 2</a>,
+              <a href="https://content.byui.edu/file/5baa7973-1f47-4b74-bc67-7782514e10e4/1/Teach/213.03.TeachProblem.html#" onclick="applyStyle(2)">Stylesheet 3</a>,
+              <a href="https://content.byui.edu/file/5baa7973-1f47-4b74-bc67-7782514e10e4/1/Teach/213.03.TeachProblem.html#" onclick="applyStyle(3)">Stylesheet 4</a>.
+            </p>
+             <h1>Instructions</h1>
+            <p>Please modify this page to include a description of each stylesheet, including anything clever that 
+            		you did to achieve a given effect. Please also include the contributors to a given stylesheet.</p>
+         </div> <!-- text -->
+         <div id="sidebar">
+           <h3>Grading</h3>
+            <p>In order to get full credit for this assignment, you will need to demonstrate what you have learned 
+            		and how you helped your classmates. This means your contribution needs to be briefly described 
+                    on the page.</p>
+          </div> <!--sidebar -->
+        </div> <!-- content -->
+        <div id="bottom">Submit this assignment by </div>
+      </div> <!-- document -->
+      
+      <script>
+	    // DISABLE STYLES: This function turns off the four stylesheets 
+	    function disableStyles() {
+		    document.styleSheets[0].disabled = true;
+		    document.styleSheets[1].disabled = true;
+		    document.styleSheets[2].disabled = true;
+		    document.styleSheets[3].disabled = true;
+		  }
+		// APPLY STYLES: This function turns off all four stylesheets, then turns one back on 
+      function applyStyle(i){
+        disableStyles();
+        document.styleSheets[i].disabled = false;
+      }
+	  </script>
+   
+
+</body></html>
